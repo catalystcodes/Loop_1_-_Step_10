@@ -1,5 +1,11 @@
 body {
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 .head1 {
@@ -30,8 +36,11 @@ input {
 .p1 {
     font-size: small;
     color: #adabac;
-    margin-left: 1.5rem;
-    border-bottom: black transparent 0.1rem;
+    /* margin-left: 1.5rem; */
+    padding: 1rem;
+    margin-left: 1rem;
+    border-bottom: 1px solid transparent;
+    /* border-style: transparent; */
 }
 
 input {
@@ -39,8 +48,8 @@ input {
 }
 
 .p1:hover {
-    color: black;
+    /* color: black; */
     cursor: pointer;
-    transition: 1s;
-    border: ;
+    /* transition: 1s; */
+    border-bottom-color: black;
 }
