@@ -44,9 +44,9 @@ input {
 }
 
 .p1:hover {
-    /* color: black; */
+    color: black;
     cursor: pointer;
-    /* transition: 1s; */
+    transition: 1s;
     border-bottom-color: rgba(17, 17, 17, 0.398);
 }
 
@@ -92,4 +92,81 @@ input {
     font-size: x-small;
     font-weight: bold;
     margin-top: 3.4rem;
+}
+
+.button1:hover {
+    cursor: pointer;
+    background-color: #dc382f;
+}
+
+.line2 {
+    padding-top: 0.01rem;
+    margin-top: 13.84rem;
+    height: 0.1rem;
+    width: 100rem;
+    background-color: #adabac;
+}
+
+.head2 {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 15rem;
+}
+
+.h2 {
+    font-size: smaller;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.85);
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.cirle1 {
+    background-color: #adabac;
+    height: 0.3rem;
+    width: 0.3rem;
+    margin-right: 0.8rem;
+    border-radius: 50%;
+}
+
+.circles {
+    display: flex;
+    margin-top: 0.6rem;
+}
+
+.p3 {
+    font-size: small;
+    font-weight: 500;
+    color: #999490;
+    line-height: 1.2rem;
+    /* margin-left: 3rem; */
+}
+
+.line3 {
+    width: 2rem;
+    height: 0.1rem;
+    background-color: #ea625c;
+    margin-right: 0.8rem;
+}
+
+h5 {
+    color: #ea625c;
+    font-size: 0.7rem;
+    font-weight: 800;
+}
+
+.main-4 {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.main-4:hover .line3 {
+    width: 2.7rem;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.main-4:hover {
+    cursor: pointer;
 }
