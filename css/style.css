@@ -51,7 +51,9 @@ input {
 }
 
 .h1 {
-    font-size: xx-large;
+    .h10 {
+        font-size: xx-large;
+    }
     margin-top: 5rem;
     margin-bottom: 3rem;
 }
@@ -101,7 +103,7 @@ input {
 
 .line2 {
     padding-top: 0.01rem;
-    margin-top: 13.84rem;
+    margin-top: 19.85rem;
     height: 0.1rem;
     width: 100rem;
     background-color: #adabac;
@@ -169,4 +171,59 @@ h5 {
 
 .main-4:hover {
     cursor: pointer;
+}
+
+.head3 {
+    margin: auto 15rem;
+    /* padding-bottom: 10rem; */
+}
+
+.h10 {
+    font-size: xx-large;
+    margin-top: 5rem;
+}
+
+.line4 {
+    height: 5rem;
+    width: 0.1rem;
+    background-color: #b6b6b7;
+    margin-right: 2rem;
+}
+
+.button2 {
+    background: #e45851;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 0.6rem 1rem;
+    font-size: x-small;
+    font-weight: bold;
+    margin-top: 3.4rem
+}
+
+.button2:hover {
+    cursor: pointer;
+    background-color: #dc382f;
+}
+
+.img3 {
+    height: 28rem;
+    width: 18rem;
+    margin-left: 15rem;
+}
+
+.main-6 {
+    margin-top: 10rem;
+    display: flex;
+    /* align-items: center; */
+}
+
+main-5 {
+    margin-top: 10rem;
+}
+
+.main-7 {
+    display: flex;
+    align-items: center;
+    margin-top: -14rem;
 }
