@@ -175,7 +175,7 @@ h5 {
 
 .head3 {
     margin: auto 15rem;
-    /* padding-bottom: 10rem; */
+    padding-bottom: 6rem;
 }
 
 .h10 {
@@ -226,4 +226,50 @@ main-5 {
     display: flex;
     align-items: center;
     margin-top: -14rem;
+}
+
+.head4 {
+    height: 41.45rem;
+    width: 100%;
+    background-image: url(../media/runners.jpg);
+    background-size: cover;
+}
+
+.h8 {
+    color: white;
+    font-size: xx-large;
+}
+
+.main-8 {
+    margin-left: 45rem;
+    padding-top: 12rem;
+}
+
+.main-9 {
+    display: flex;
+    align-items: center;
+    margin-top: 2.8rem;
+}
+
+.line5 {
+    height: 6rem;
+    width: 0.1rem;
+    background-color: #b6b6b7;
+    margin-right: 2rem;
+}
+
+.button3 {
+    background: #e45851;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 0.6rem 1rem;
+    font-size: x-small;
+    font-weight: bold;
+    margin-top: 3rem
+}
+
+.button3:hover {
+    cursor: pointer;
+    background-color: #dc382f;
 }
